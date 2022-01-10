@@ -1,2 +1,2 @@
-# Agak
-A photocurrent mapping program
+# Agaration
+A spatial photocurrent mapping program
