@@ -22,8 +22,9 @@ import psutil
 from pymeasure.instruments.srs import SR830
 import matplotlib.pyplot as plt
 
-# sys.path.append(r'E:\Python\Codes\1_main_codes')
-# from DAQ_main import *       
+sys.path.append(r'E:\Python\Codes\1_main_codes')
+from DAQ_main import *
+from solstis_main import *      
 
 MW_Ui, MW_Base = uic.loadUiType('mainwindow.ui')
 
@@ -141,7 +142,6 @@ class MainWindow(MW_Base, MW_Ui):
             if instrument == SR830:
                 self.parameters_sr830_input_coupling_ac.setEnabled(True)
                 self.sr830 = instrument(resource_name)
-
             
         except:
             self.log_box.append('<span style="color:lightcoral">[ERROR] Equipment connection failed<\span>')
@@ -298,7 +298,7 @@ class MainWindow(MW_Base, MW_Ui):
     
     def set_sr830_parameters(self,resource_name,parameter='all'):
         to_set_parameters = self.get_to_set_sr830_parameters()
-        
+            
         if parameter=='all':
             current_parameters = self.get_current_sr830_parameters(resource_name)
         
@@ -604,13 +604,13 @@ class Mapper(qtc.QObject):
                 theta_map[i*n_y+j] = [x_position, y_position, 0]
                 
                 
-        for i in range(n_x):
-            x_position = self.parameters_galvo['x_min'] + i*step
-            # set_X_mirror(x_position)
+        for i in range(n_y):
+            y_position = self.parameters_galvo['y_min'] + i*step
+            set_Y_mirror(y_position)
                     
-            for j in range(n_y): 
-                y_position = self.parameters_galvo['y_min'] + j*step
-                # set_Y_mirror(y_position)
+            for j in range(n_x): 
+                x_position = self.parameters_galvo['x_min'] + j*step
+                set_X_mirror(x_position)
                 # print([x_position,y_position])
                 x_map[i*n_y+j] = [x_position, y_position, self.sr830.x]
                 y_map[i*n_y+j] = [x_position, y_position, self.sr830.y]
