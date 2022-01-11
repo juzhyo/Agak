@@ -14,10 +14,7 @@ A spatial photocurrent mapping program
 - [Introduction](#introduction)
 - [Features](#features)
 - [Instruments](#instruments)
-- [Install](#install)
 - [Roadmap](#roadmap)
-- [Getting help](#getting-help)
-- [Contribute](#contribute)  
 
 # Introduction
 > Nothing is more inaccurate yet precise than agaration.
