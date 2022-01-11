@@ -1,6 +1,12 @@
+<div align="center">
+  
 # Agaration
 
 A spatial photocurrent mapping program
+
+![Agaration Screenshot](https://github.com/juzhyo/agaration/blob/main/screenshots/run.gif)
+
+</div>
 
 ---
 
@@ -39,9 +45,6 @@ are working together.
 
 
 # Roadmap
-> I tried carrying the weight of the world\
-> But I only have two hands
-
 Agaration is very much still a work-in-progress. Hopefully more functions 
 will be added soon. Some of the functions that are in consideration are:
 
