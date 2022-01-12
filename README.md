@@ -49,7 +49,7 @@ will be added soon. Some of the functions that are in consideration are:
 + Custom saving directory
 + Wavelength-dependent measurement
 + Live camera capture
-+ Bias-dependent mapping with sourcementer
++ Bias-dependent mapping with sourcemeter
 
 
 
