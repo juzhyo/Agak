@@ -1,6 +1,6 @@
 <div align="center">
   
-# Agaration
+# Photocurrent Mapper
 
 A spatial photocurrent mapping program
 
