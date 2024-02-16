@@ -4,7 +4,7 @@
 
 A spatial photocurrent mapping program
 
-![Agaration Screenshot](https://github.com/juzhyo/agaration/blob/main/screenshots/run.gif)
+![Agaration Screenshot](https://github.com/juzhyo/photocurrent-mapping/blob/main/screenshots/run-compressed.gif)
 
 </div>
 
