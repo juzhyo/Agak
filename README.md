@@ -17,9 +17,7 @@ A spatial photocurrent mapping program
 - [Roadmap](#roadmap)
 
 # Introduction
-> Nothing is more inaccurate yet precise than agaration.
-
-Agaration is an in-house program written to add spatial photocurrent mapping capability 
+This is an in-house program written to add spatial photocurrent mapping capability 
 to our optical setup. The measurement involves controlling a laser's position on a device 
 through a galvo mirror system, and reading its current/voltage output. In time, it is hoped 
 that it can perform temperature-, wavelength-, and bias-dependent mappings as well. A GUI 
@@ -42,7 +40,7 @@ are working together.
 
 
 # Roadmap
-Agaration is very much still a work-in-progress. Hopefully more functions 
+The program is very much still a work-in-progress. Hopefully more functions 
 will be added soon. Some of the functions that are in consideration are:
 
 + Live laser positioning control
